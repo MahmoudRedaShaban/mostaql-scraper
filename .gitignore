@@ -1,11 +1,20 @@
-.venv*
-data*
-scraper.log
-.idea*
-# Python
+# Python cache and log files
 __pycache__/
 *.py[cod]
-*.sqlite3
 *.log
-# Environment
+
+# SQLite DB
+*.sqlite3
+
+# Virtual environment
+.venv/
+.venv*
+
+# IDE and environment
+.idea/
+.idea*
 .env
+
+# Logs and data
+scraper.log
+data/
