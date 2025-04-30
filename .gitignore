@@ -1,14 +1,11 @@
-.env
 .venv*
 data*
 scraper.log
-.env*
-
+.idea*
 # Python
 __pycache__/
 *.py[cod]
 *.sqlite3
 *.log
-
 # Environment
 .env
