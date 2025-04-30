@@ -1,2 +1,14 @@
 .env
 .venv*
+data*
+scraper.log
+.env*
+
+# Python
+__pycache__/
+*.py[cod]
+*.sqlite3
+*.log
+
+# Environment
+.env
